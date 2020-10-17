@@ -29,6 +29,7 @@ class sr_dataset(Dataset):
         LR = Image.open(self.LR_list[idx])
         
     
-        return {'HR' : T.ToTensor()(HR), 'LR' : T.ToTensor()(LR)}
+        return {'HR' : T.ToTensor()(HR), 
+                'LR' : T.ToTensor()(LR)}
         
  
