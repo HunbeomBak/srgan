@@ -153,8 +153,12 @@ dmypy.json
 # profiling data
 .prof
 
-# Pytorch model file
-*.pt
-*.pth
-
 # End of https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks
+
+
+## Dataset
+data/*
+
+## pytorch model file
+*.pth
+*.pt
