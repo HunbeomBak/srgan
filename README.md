@@ -6,9 +6,9 @@
 
 ## To do list
 - [x] Init git
-- [ ] Make git ignore
-- [ ] Dataset Download from Google Drive code 
-- [ ] Build Dataset 
+- [x] Make git ignore
+- [x] Dataset Download from Google Drive code 
+- [x] Build Dataset 
 - [ ] Build Model
 - [ ] Build trian and inference code
 - [ ] Upload Model file to Google drive
