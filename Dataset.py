@@ -31,5 +31,16 @@ class sr_dataset(Dataset):
     
         return {'HR' : T.ToTensor()(HR), 
                 'LR' : T.ToTensor()(LR)}
+    
+    
+    
+    
+if __name__ == "__main__":
+    HR = './data/CelebA-HQ_Dataset/Train/HQ_256x256/'
+    LR = './data/CelebA-HQ_Dataset/Train/HQ_32x32/'
+    ds = sr_dataset(HR_path=HR, LR_path=HR)
+    
+    print(len(ds))
+    print(ds[0])
         
  

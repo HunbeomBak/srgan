@@ -74,9 +74,6 @@ class Generator(nn.Module):
         
         return x
     
-    
-    
-
 if __name__ == "__main__":
     G = Generator()
     input_x = torch.rand(1,32,32,3)
