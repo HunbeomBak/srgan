@@ -63,7 +63,7 @@ class Generator(nn.Module):
         
         
     def forward(self,x):
-        x =x.permute(0, 3, 1, 2)
+        #x =x.permute(0, 3, 1, 2)
         x = self.conv1(x)
         x_res = x ##Residual
         x = self.block(x)
