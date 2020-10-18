@@ -40,14 +40,14 @@ class Upsampler(nn.Module):
 class Generator(nn.Module):
     def __init__(self):
         super(Generator, self).__init__()
-        B = 16
+        B = 5
         
         self.conv1 = nn.Sequential(
             nn.Conv2d(in_channels=3, out_channels=64, kernel_size=9, stride=1, padding=9//2),
             nn.PReLU()
         )
         
-        block = [ResBlock() for _ in range(16)]
+        block = [ResBlock() for _ in range(B)]
         self.block = nn.Sequential(*block)
         
         self.conv2 =  nn.Sequential(
