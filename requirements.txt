@@ -1,1 +1,4 @@
 googledrivedownloader
+torch
+torchvision
+pillow
