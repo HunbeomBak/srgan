@@ -9,11 +9,10 @@
 - [x] Make git ignore
 - [x] Dataset Download from Google Drive code 
 - [x] Build Dataset 
-- [ ] Build Model
+- [x] Build Model
 - [ ] Build trian and inference code
 - [ ] Upload Model file to Google drive
 - [ ] Build code that download model files from Google Drive
 
 
-until 2020.10.17
 
